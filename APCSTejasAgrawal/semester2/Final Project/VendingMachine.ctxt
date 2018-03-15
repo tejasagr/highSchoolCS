@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ display()
+comment1.params=d
+comment1.target=void\ addDrink(Drink)
+comment2.params=index
+comment2.target=void\ removeDrink(int)
+comment3.params=index
+comment3.target=java.lang.String\ process(int)
+comment4.params=index\ amount
+comment4.target=double\ changeStock(int,\ int)
+numComments=5
