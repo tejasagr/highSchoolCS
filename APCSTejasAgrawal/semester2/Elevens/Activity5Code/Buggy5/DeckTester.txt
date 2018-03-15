@@ -1,5 +1,0 @@
-FILE QUARANTINED
-
-Microsoft Forefront Protection for Exchange Server removed a file since it was found to match a filter.
-File name: "submission2Winter2015Lesson4.zip->DeckTester.bat"
-Filter name: "FILE FILTER= From Exchange 2007: *.bat"
