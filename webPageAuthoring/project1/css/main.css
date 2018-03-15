@@ -1,0 +1,553 @@
+/* useful divs */
+
+
+.clearfloat {
+	clear: both;
+}
+
+.sidecontents {
+	float: left;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.currentteam {
+	background-color: #00AAFF;
+}
+
+
+/* ALL website content */
+
+
+.website {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+.header {
+	height: 150px;
+	background-color: #EEEEEE;
+	box-shadow: 5px 5px 5px #000000;
+}
+
+.logo {
+	height: 135px;
+	margin: 8px 13px;
+	float: left;
+}
+
+
+body {
+	background-image: url('../images/gradient.png');
+	background-repeat: repeat-x;
+	background-color: blue;
+}
+
+h1 {
+	font-family: "Gill Sans", Arial;
+	color: #00AAFF;
+	text-align: center;
+	margin: 0px;
+	font-size: 311%;
+	padding: 10px 15px;
+}
+
+h2 {
+	font-family: Century Gothic, Lucida Grande;
+	color: gold;
+	text-align: center;
+	background-color: darkred;
+	font-size: 200%;
+	margin: 3px 0px;
+	letter-spacing: 2px;
+	padding: 3px;
+	font-style: italic;
+}
+
+.navbar {
+	text-shadow: 3px 3px 2px #000000;
+	font-family: Century Gothic, Trebuchet MS;
+	color: gold;
+	font-size: 160%;
+	margin: 10px auto 10px auto;
+	text-align: center;
+	border: 3px solid gold;
+	box-shadow: 5px 5px 5px #000000;
+	width: 920px;
+	border-collapse: collapse;
+}
+
+
+
+.goldhover:hover {
+	background: gold;
+	text-shadow: none;
+	display: block;
+	height: 103%;
+	width: 102%;
+	position: relative;
+	left: -1px;
+	line-height: 62px;
+	font-weight: bold;
+	color: darkred;
+	z-index: 5;
+}
+
+.navbut {
+	height: 62px;
+	width: 166px;
+	border: 3px solid gold;
+}
+
+.current {
+	color: darkred;
+	background-color: gold;
+	font-weight: bold;
+	text-shadow: none;
+}
+
+.homebutton {
+	background: url(../images/HomeLogo.png);
+	background-size: 100% 100%;
+}
+
+.manutdbutton {
+	background: url(../images/ManUtdLogo.jpg);
+	background-size: 100% 100%;
+
+}
+
+.mancitybutton {
+	background: url(../images/ManCityLogo.jpg);
+	background-size: 100% 100%;
+}
+
+.chelseabutton {
+	background: url(../images/ChelseaLogo.jpg);
+	background-size: 100% 100%;
+}
+
+.arsenalbutton {
+	background: url(../images/ArsenalLogo.jpg);
+	background-size: 100% 100%;
+}
+
+a:link {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+a:visited {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+a:hover {
+	color: inherit;
+	text-decoration: inherit;
+
+
+}
+
+a:active {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.manutd {
+	background-color: red;
+}
+
+.mancity {
+	background-color: lightblue;
+}
+
+.chelsea {
+	background-color: darkblue;
+}
+
+.arsenal {
+	background-color: darkred;
+}
+
+.home {
+	background-color: grey;
+}
+
+.selected {
+	font-weight: bold;
+	color: yellow;
+}
+
+.footer {
+	background-color: #DDDDDD;
+	height: 50px;
+	margin: 10px 0px 20px 0px;
+}
+
+.footrow1 {
+	height: 50%;
+	background-color: #CCCCCC;
+	width: 320px;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+	font-family: Century Gothic;
+	font-size: 90%;
+}
+
+.footrow2 {
+	height: 50%;
+	width: 100%;
+	text-align: center;
+	float: left;
+	line-height: 26px;
+	font-family: Georgia;
+	font-size: 75%
+}
+
+div.footer a:hover {
+	font-size: 100%;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* homepage CSS */
+
+.tablecapts {
+	caption-side: bottom;
+	color: gold;
+	font-size: 80%;
+	text-align: left;
+	margin: 5px;
+	text-shadow: 3px 3px 1px #000000;
+}
+
+
+.pointstable {
+	font-family: Gill Sans;
+	width: 235px;
+	border-collapse: collapse;
+	text-align: center;
+	background-color: white;
+	border: darkred solid 3px;
+	margin: 15px 10px 11px 0px;
+}
+
+.PTheader {
+	color: white;
+	background-color: darkred;
+	font-size: 100%;
+	padding: 5px 0px;
+	border: darkred solid 1px;
+}
+
+.PTtitle {
+	font-size: 150%;
+	letter-spacing: 2px;
+	color: gold;
+}
+
+.PTcontent {
+	border: darkred solid 1px;
+	padding: 7px;
+}
+
+.CL {
+	background-color: gold;
+}
+
+.GStitle {
+	font-size: 160%;
+	letter-spacing: 2px;
+	color: gold;
+
+}
+.GSheader {
+	color: white;
+	background-color: darkred;
+	font-size: 100%;
+	padding: 5px 0px;
+	border: darkred solid 1px;
+}
+
+.icon {
+	height: 30px;
+}
+
+.goldenboot {
+	background-color: gold;
+}	
+
+.picgallery {
+	background-color: gold;
+	border: gold solid 1px;
+	margin: 25px auto;
+
+}
+
+
+.allgal {
+	height: 188px;
+	width: 336px;
+	border-collapse: collapse;
+	border: gold solid 1px;
+
+}
+.manutdgallery {
+	background: url(../images/ManUtdHome.jpg);
+	background-size: 338px 190px;
+
+}
+
+.mancitygallery {
+	background: url(../images/ManCityHome.jpg);
+	background-size: 338px 190px;
+}
+
+.chelseagallery {
+	background: url(../images/ChelseaHome.jpg);
+	background-size: 338px 190px;
+}
+
+.arsenalgallery {
+	background: url(../images/ArsenalHome.jpg);
+	background-size: 338px 190px;
+}
+
+.pointlabel {
+	color: gold;
+	text-shadow: 0px 0px 5px #2d2c2c;
+	font-family: Century Gothic, Gill Sans;
+	font-size: 830%;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.picgalcapt {
+	color: gold;
+	font-family: Century Gothic, Gill Sans;
+	font-size: 110%;
+	caption-side: bottom;
+	text-align: left;
+	font-weight: bold;
+	margin: -26px 5px 0px 11px;
+	opacity: 0.9;
+	text-shadow: 0px 0px 5px #2d2c2c;
+}
+
+
+.GWcontent {
+	border: gold solid 1px;
+	padding: 15px;
+	font-family: Baskerville, Georgia;
+	color: white;
+}
+
+.GWheader {
+	color: darkred;
+	background-color: gold;
+	font-size: 100%;
+	padding: 0px 0px;
+	border: gold solid 1px;
+	padding: 10px;
+}
+
+.gameweektable {
+	font-family: Gill Sans;
+	width: 692px;
+	border-collapse: collapse;
+	text-align: center;
+	background-color: darkred;
+	border: gold solid 4px;
+	margin: 30px auto;
+}
+
+.GWtitle {
+	font-size: 215%;
+	letter-spacing: 5px;
+	color: #00AAFF;
+	padding: 10px;
+}
+
+
+.GWcapt {
+	caption-side: bottom;
+	color: gold;
+	font-size: 80%;
+	text-align: left;
+	margin: 5px;
+	text-shadow: 3px 3px 1px #000000;
+}
+
+
+/* Team Pages CSS */
+
+.recheader {
+	color: darkred;
+	background-color: gold;
+	font-size: 125%;
+	padding: 0px 0px;
+	padding: 10px;
+	letter-spacing: 10px;
+	border: black solid 1px;
+}
+
+.rectable {
+	font-family: Gill Sans;
+	width: 692px;
+	border-collapse: collapse;
+	text-align: center;
+	background-color: darkred;
+	border: gold solid 4px;
+	margin: 30px auto;
+}
+
+
+.recheader2 {
+	color: darkred;
+	background-color: gold;
+	font-size: 110%;
+	padding: 0px 0px;
+	border: gold solid 1px;
+	padding: 10px;
+}
+
+.rectitle {
+	font-size: 215%;
+	letter-spacing: 5px;
+	color: #00AAFF;
+	padding: 10px;
+}
+
+.reccontent {
+	padding: 23px 19px;
+	font-family: Baskerville, Georgia;
+	color: white;
+	width: 50px;
+	font-size: 250%;
+}
+
+.midleft {
+	border-right: black solid 1px;
+}
+
+.titles {
+	font-weight: bold;
+	color: #00AAFF;
+	font-size: 120%;
+}
+
+.HLtable {
+	font-family: Gill Sans;
+	width: 692px;
+	border-collapse: collapse;
+	text-align: center;
+	background-color: gold;
+	border: gold solid 4px;
+	margin: 30px auto;
+}
+
+.HLtitle {
+	font-size: 215%;
+	letter-spacing: 5px;
+	color: #00AAFF;
+	padding: 3px;
+	background-color: gold;
+	letter-spacing: 1px;
+}
+
+.HLheader {
+	color: darkred;
+	background-color: gold;
+	font-size: 80%;
+	padding: 0px;
+}
+
+.HLcapt {
+	caption-side: bottom;
+	color: darkred;
+	font-size: 90%;
+	text-align: left;
+	margin: 5px;
+	text-shadow: 3px 3px 1px #000000;
+	letter-spacing: 1px;
+}
+
+.HLcontent {
+	border: gold 1px solid;
+}
+
+
+.paragraph {
+	margin: 50px auto;
+	width: 940px;
+}
+
+p {
+	font-family: Georgia, Serif;
+	padding: 30px 35px 10px 35px;
+
+}
+
+form {
+	padding: 0px 35px 35px 35px;
+	font-family: Georgia, Serif;
+	font-size: 15px;
+	width: 275px;
+	text-align: left;
+	float: left;
+	margin: 40px auto;
+	
+}
+
+.paratext {
+	float: left;
+	width: 45%;
+	margin: 40px 0px 30px 60px;
+}
+
+.goldbox {
+	background-color: gold;
+	height: 550px;
+	width: 895px;
+	position: absolute;
+	z-index: -1;
+	margin: 0px 30px;
+}
+
+.selected2 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.sourcesbox {
+	background-color: gold;
+	margin: 20px auto;
+	width: 840px;
+	padding: 50px;
+	font-family: Georgia, Serif;
+}
+
+.sources {
+	color: darkred;
+	text-decoration: underline;
+}
+
+.sources:hover {
+	text-decoration: none;
+}
+
+.sourcesbg {
+	background-image: url('../images/bbcsport.png');
+	background-repeat: repeat;
+	background-color: white;
+}

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Enemy()
+comment1.params=hp\ agile\ atk
+comment1.target=Enemy(int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getHP()
+comment3.params=
+comment3.target=int\ getAgility()
+comment4.params=
+comment4.target=int\ getAttack()
+comment5.params=e
+comment5.target=Enemy\ getStats(int)
+numComments=6
